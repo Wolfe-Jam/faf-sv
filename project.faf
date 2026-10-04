@@ -1,0 +1,48 @@
+faf_version: "3.0"
+project:
+  name: faf-sv
+  goal: "Svelte CLI add-on: writes project.faf (AI context) for a Svelte or SvelteKit project with faf-cli"
+  main_language: TypeScript
+  type: library  # found: no classifying signals — fallback
+stack:
+  frontend: slotignored
+  css_framework: slotignored
+  ui_library: slotignored
+  state_management: slotignored
+  backend: slotignored
+  api_type: slotignored
+  runtime: slotignored
+  database: slotignored
+  connection: slotignored
+  hosting: ""
+  build: ""
+  cicd: ""
+  monorepo_tool: slotignored
+  package_manager: slotignored
+  workspaces: slotignored
+  admin: slotignored
+  cache: slotignored
+  search: slotignored
+  storage: slotignored
+human_context:
+  who: ""
+  what: "Svelte CLI add-on: writes project.faf (AI context) for a Svelte or SvelteKit project with faf-cli"
+  why: ""
+  where: https://faf.one
+  when: ""
+  how: npm run build
+monorepo:
+  packages_count: slotignored
+  build_orchestrator: slotignored
+  versioning_strategy: slotignored
+  shared_configs: slotignored
+  remote_cache: slotignored
+tech_stack:
+  - TypeScript
+key_files:
+  - package.json
+  - src/index.ts
+  - README.md
+commands:
+  build: npm run build
+  test: npm run test

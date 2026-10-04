@@ -1,0 +1,43 @@
+{
+  "name": "faf-sv",
+  "version": "0.1.0",
+  "description": "Svelte CLI add-on: writes project.faf (AI context) for a Svelte or SvelteKit project with faf-cli",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "sv-add",
+    "svelte",
+    "sveltekit",
+    "faf",
+    "ai-context",
+    "agents-md"
+  ],
+  "homepage": "https://faf.one",
+  "license": "MIT",
+  "author": "team@faf.one",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "sv": "^1.0.0"
+  },
+  "devDependencies": {
+    "@sveltejs/sv-utils": "^1.0.1",
+    "sv": "^1.0.1",
+    "tsdown": "^0.23.0",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}
