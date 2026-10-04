@@ -1,7 +1,7 @@
 import { defineAddon, defineAddonOptions } from 'sv';
 
 /** The faf-cli range this add-on installs. */
-const FAF_CLI = '^8.1.0';
+const FAF_CLI = '^8.1.1';
 
 const options = defineAddonOptions()
 	.add('agents', {

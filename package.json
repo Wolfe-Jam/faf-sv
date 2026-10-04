@@ -39,5 +39,15 @@
     "tsdown": "^0.23.0",
     "typescript": "^7.0.2",
     "vitest": "^5.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wolfe-Jam/faf-sv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wolfe-Jam/faf-sv/issues"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }

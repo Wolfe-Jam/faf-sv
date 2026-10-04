@@ -14,9 +14,9 @@ stack:
   runtime: slotignored
   database: slotignored
   connection: slotignored
-  hosting: ""
-  build: ""
-  cicd: ""
+  hosting: npm
+  build: tsdown
+  cicd: GitHub Actions
   monorepo_tool: slotignored
   package_manager: slotignored
   workspaces: slotignored
@@ -25,12 +25,12 @@ stack:
   search: slotignored
   storage: slotignored
 human_context:
-  who: ""
+  who: Svelte and SvelteKit developers who use AI coding assistants
   what: "Svelte CLI add-on: writes project.faf (AI context) for a Svelte or SvelteKit project with faf-cli"
-  why: ""
-  where: https://faf.one
-  when: ""
-  how: npm run build
+  why: "A Svelte project gets AI context from the tool it was set up with (sv), with no separate install step"
+  where: "npm: faf-sv · https://faf.one"
+  when: "0.1.0, October 2026"
+  how: npx sv add faf-sv
 monorepo:
   packages_count: slotignored
   build_orchestrator: slotignored

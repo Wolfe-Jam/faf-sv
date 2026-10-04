@@ -21,7 +21,7 @@ npx sv add faf-sv="run:yes+agents:yes"
 
 ## What it changes
 
-- `faf-cli` is added to `devDependencies`.
+- `faf-cli` (`^8.1.1`) is added to `devDependencies`.
 - `package.json` gets `"faf": "faf auto"` (and `"faf:agents": "faf export --agents"`). Scripts that already exist are left alone.
 - With `run`, faf-cli writes `project.faf` (and `AGENTS.md` with `agents`) through your package manager's runner.
 
